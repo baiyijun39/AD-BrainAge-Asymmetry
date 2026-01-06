@@ -83,9 +83,6 @@ def dataseter(
 
 
 def build_transforms() -> Compose:
-    """
-    与原代码一致：定义但不强制使用，避免改变原始行为
-    """
     return Compose(
         [
             ToTensor(),
