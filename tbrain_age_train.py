@@ -16,6 +16,7 @@ from torch.cuda.amp import GradScaler, autocast
 # Medical imaging (kept for compatibility)
 import nibabel as nib 
 import SimpleITK as sitk  
+from models.small_sfcn_v1 import Small_SFCN
 
 from monai.transforms import (
     Compose,
