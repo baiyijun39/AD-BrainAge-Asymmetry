@@ -1,4 +1,3 @@
-# AD-BrainAge-Asymmetry
 # Hemispheric Asymmetry Shapes Brain Age Gap to Predict Cognitive Impairment Across the Alzheimer’s Disease Spectrum
 
 This repository provides the analysis scripts to reproduce the brain age prediction (BAG) and hemispheric structural asymmetry (AM) computation methods proposed in the study, as well as the subsequent modeling and classification of the Alzheimer’s disease continuum (CN, SCD, MCI, AD) based on their integration. It covers the complete experimental pipeline, from MRI data loading and deep learning model training to downstream machine learning–based evaluation.
